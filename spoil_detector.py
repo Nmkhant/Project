@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 
-st.sidebar.image("IMDb_Header_Page.jpg" , width=300)
+st.sidebar.image("Penrose_Triangle-01-01.png" , width=300)
 
 menu = ["Home" , "About Us"]
 
@@ -14,7 +14,7 @@ if choice == "Home": #Home
     
     st.text("")
     
-    st.image("E:\AI Project (9-2021)\IMDb_Header_Page.jpg" , width = 700)
+    st.image("Penrose_Triangle-01-01.png" , width = 700)
     
     st.text("")
     
