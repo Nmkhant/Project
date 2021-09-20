@@ -14,7 +14,7 @@ if choice == "Home": #Home
     
     st.text("")
     
-    st.image("Penrose_Triangle-01-01.png" , width = 700)
+    st.image("IMDb_Header_Page.jpg" , width = 700)
     
     st.text("")
     
