@@ -10,7 +10,7 @@ menu = ["Home" , "About Us"]
 choice = st.sidebar.selectbox("Menu" , menu)
 
 filename = "final_model.h5"
-loaded_model = pickle.load(open(finalname , 'rb'))
+loaded_model = pickle.load(open(filename , 'rb'))
 
 def testing(text_input):
     result=(loaded_model.predict(Tfidf_vect.transform([text_input]))[0])
