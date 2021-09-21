@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import streamlit as st
+import pickle
 
 st.sidebar.image("Penrose_Triangle-01-01.png" , width=300)
 
@@ -8,6 +9,16 @@ menu = ["Home" , "About Us"]
 
 choice = st.sidebar.selectbox("Menu" , menu)
 
+filename = "final_model.h5"
+loaded_model = pickle.load(open(finalname , 'rb'))
+
+def testing(text_input):
+    result=(loaded_model.predict(Tfidf_vect.transform([text_input]))[0])
+    if result==1:
+        return result
+    elif result==0:
+        return result
+ 
 if choice == "Home": #Home
     
     st.markdown("<h1 style='text-align: center; color: #ffba00'>Spoil Reviews Detector Software that's as easy to understand as it is to use</h1>", unsafe_allow_html=True)
@@ -21,7 +32,7 @@ if choice == "Home": #Home
     user_review = st.text_input('Enter The Review You Want To Test')
     result=""
     if st.button("Predict"):
-        result = spoil_predict(user_review)
+        result = testing(user_review)
         if result == 0:
             st.write("This review is not a spoil review.")
         else:
