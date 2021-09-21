@@ -23,7 +23,7 @@ lemmatizer=WordNetLemmatizer()
 stemming = PorterStemmer()
 stops = set(stopwords.words("english"))
 
-train_data = pd.read_csv("E:/AI Project (9-2021)/Dector/train.csv")
+train_data = pd.read_csv("train.csv")
 
 train_original = train_data.copy()
 
@@ -95,7 +95,7 @@ def testing(text_input):
         return result
 
     
-st.sidebar.image("E:/AI Project (9-2021)/Penrose_Triangle-01-01.png" , width=300)
+st.sidebar.image("Penrose_Triangle-01-01.png" , width=300)
 
 menu = ["Home" , "About Us"]
 
@@ -107,7 +107,7 @@ if choice == "Home": #Home
     
     st.text("")
     
-    st.image("E:/AI Project (9-2021)/IMDb_Header_Page.jpg" , width = 700)
+    st.image("IMDb_Header_Page.jpg" , width = 700)
     
     st.text("")
     
