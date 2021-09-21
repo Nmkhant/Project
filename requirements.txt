@@ -4,12 +4,10 @@ argh==0.26.2
 argon2-cffi==21.1.0
 astor==0.8.1
 astroid==2.4.2
-async-generator @ file:///home/ktietz/src/ci/async_generator_1611927993394/work
 atomicwrites==1.4.0
 attrs @ file:///tmp/build/80754af9/attrs_1620827162558/work
 autopep8 @ file:///tmp/build/80754af9/autopep8_1615918855173/work
 Babel @ file:///tmp/build/80754af9/babel_1620871417480/work
-backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
 backports.zoneinfo==0.2.1
 base58==2.1.0
 bcrypt @ file:///C:/ci/bcrypt_1597936263757/work
@@ -98,7 +96,6 @@ pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
 pydantic==1.8.2
 pydeck==0.7.0
 pydocstyle @ file:///tmp/build/80754af9/pydocstyle_1621600989141/work
-pyflakes @ file:///home/ktietz/src/ci_ipy2/pyflakes_1612551159640/work
 Pygments @ file:///tmp/build/80754af9/pygments_1629234116488/work
 pylint==2.5.3
 pyls-black @ file:///tmp/build/80754af9/pyls-black_1607553132291/work
@@ -138,11 +135,6 @@ sortedcontainers @ file:///tmp/build/80754af9/sortedcontainers_1623949099177/wor
 spacy==3.1.2
 spacy-legacy==3.0.8
 Sphinx @ file:///tmp/build/80754af9/sphinx_1623884544367/work
-sphinxcontrib-applehelp @ file:///home/ktietz/src/ci/sphinxcontrib-applehelp_1611920841464/work
-sphinxcontrib-devhelp @ file:///home/ktietz/src/ci/sphinxcontrib-devhelp_1611920923094/work
-sphinxcontrib-htmlhelp @ file:///tmp/build/80754af9/sphinxcontrib-htmlhelp_1623945626792/work
-sphinxcontrib-jsmath @ file:///home/ktietz/src/ci/sphinxcontrib-jsmath_1611920942228/work
-sphinxcontrib-qthelp @ file:///home/ktietz/src/ci/sphinxcontrib-qthelp_1611921055322/work
 sphinxcontrib-serializinghtml @ file:///tmp/build/80754af9/sphinxcontrib-serializinghtml_1624451540180/work
 spyder @ file:///C:/ci/spyder_1616776239898/work
 spyder-kernels @ file:///C:/ci/spyder-kernels_1614030842607/work
