@@ -59,7 +59,6 @@ pydantic==1.8.2
 pydeck==0.7.0
 pylint==2.5.3
 pyrsistent==0.18.0
-pywinpty==1.1.4
 PyYAML==5.4.1
 pyzmq==22.3.0
 QDarkStyle==2.8.1
